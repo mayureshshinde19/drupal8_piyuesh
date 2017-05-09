@@ -1,0 +1,28 @@
+uuid: 8bf2a778-51a6-4f04-93db-71dfba3bb3e8
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.rotator
+    - field.storage.node.field_adding_block
+    - node.type.article
+id: node.article.field_adding_block
+field_name: field_adding_block
+entity_type: node
+bundle: article
+label: 'adding block'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:block_content'
+  handler_settings:
+    target_bundles:
+      rotator: rotator
+    sort:
+      field: _none
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

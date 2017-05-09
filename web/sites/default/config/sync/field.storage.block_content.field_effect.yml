@@ -1,0 +1,30 @@
+uuid: 2968151c-e552-48ea-9b2e-ff29442e7d03
+langcode: en
+status: true
+dependencies:
+  module:
+    - block_content
+    - options
+id: block_content.field_effect
+field_name: field_effect
+entity_type: block_content
+type: list_string
+settings:
+  allowed_values:
+    -
+      value: '1'
+      label: slide
+    -
+      value: '2'
+      label: fade
+    -
+      value: '3'
+      label: scroll
+  allowed_values_function: ''
+module: options
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

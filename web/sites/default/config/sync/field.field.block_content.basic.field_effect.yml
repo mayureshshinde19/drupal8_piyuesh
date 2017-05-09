@@ -1,0 +1,21 @@
+uuid: fc8f97e1-6cf1-4687-bb62-11bb2a045b95
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.basic
+    - field.storage.block_content.field_effect
+  module:
+    - options
+id: block_content.basic.field_effect
+field_name: field_effect
+entity_type: block_content
+bundle: basic
+label: effect
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: list_string

@@ -1,0 +1,20 @@
+uuid: bd6b4006-3c52-4a40-ba74-bb139cd3319f
+langcode: en
+status: true
+dependencies:
+  module:
+    - block_content
+    - node
+id: node.field_adding_block
+field_name: field_adding_block
+entity_type: node
+type: entity_reference
+settings:
+  target_type: block_content
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false
